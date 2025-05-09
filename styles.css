@@ -1,0 +1,156 @@
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .container {
+    width: 380px;
+    max-width: 100%;
+    padding: 15px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+  }
+  
+  .section {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #555;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .input-group input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .action-btn {
+    width: 100%;
+    margin-bottom: 8px;
+    background-color: #4285f4;
+    color: white;
+  }
+  
+  .action-btn:hover {
+    background-color: #3367d6;
+  }
+  
+  .primary-btn {
+    background-color: #0f9d58;
+    color: white;
+  }
+  
+  .primary-btn:hover {
+    background-color: #0b8043;
+  }
+  
+  #status {
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .success {
+    color: #0b8043;
+  }
+  
+  .error {
+    color: #d23f31;
+  }
+  
+  .data-preview {
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  .data-preview h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .data-table-container {
+    max-height: 200px;
+    overflow-y: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+  }
+  
+  th {
+    font-weight: 600;
+    color: #555;
+    background-color: #f5f5f5;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .actions button {
+    flex: 1;
+    margin: 0 5px;
+  }
+  
+  .actions button:first-child {
+    margin-left: 0;
+  }
+  
+  .actions button:last-child {
+    margin-right: 0;
+  }

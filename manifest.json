@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "OpenAI 빌링 내역 추출기",
+  "version": "1.0",
+  "description": "OpenAI 빌링 내역을 추출하고 인보이스를 다운로드하는 확장 프로그램",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "downloads",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://platform.openai.com/*",
+    "*://invoice.stripe.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://platform.openai.com/*",
+        "*://invoice.stripe.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
